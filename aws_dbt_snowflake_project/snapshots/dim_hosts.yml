@@ -1,5 +1,6 @@
 snapshots:
   - name: dim_hosts
+    description: "SCD Type 2 snapshot table for tracking historical changes to hosts."
     relation: ref('hosts')
     config:
       schema: gold

@@ -1,5 +1,6 @@
 snapshots:
   - name: dim_listings
+    description: "SCD Type 2 snapshot table for tracking historical changes to listings."
     relation: ref('listings')
     config:
       schema: gold

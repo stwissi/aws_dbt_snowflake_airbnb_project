@@ -1,5 +1,6 @@
 snapshots:
   - name: dim_bookings
+    description: "SCD Type 2 snapshot table for tracking historical changes to bookings."
     relation: ref('bookings')
     config:
       schema: gold
